@@ -1,0 +1,35 @@
+table,th,td
+{
+  border:2px solid rgb(0, 0, 0);
+}
+table
+{
+  border-collapse:collapse;
+  width:20%;
+  text-align: center;
+}
+td
+{
+  height: 40px;
+}
+thead 
+{
+    background-color: gray;
+    color: aliceblue;
+    height: 40px;
+}
+tr:nth-child(2)
+{
+  background-color: rgb(206, 211, 220);
+  color:rgb(0, 0, 0);
+}
+tr:nth-child(4)
+{
+  background-color: rgb(206, 211, 220);
+  color:rgb(0, 0, 0);
+
+th
+{
+  background-color:gray;
+  color:black;
+}

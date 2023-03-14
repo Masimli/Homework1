@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css" /> 
+    <title>Document</title>
+</head>
+<body>
+
+    <form method="GET" action="#">    
+    <fieldset>
+    <legend>Personal Details</legend>
+        <label for="country"><strong>Choose Country:</strong></label><br />
+        <select name = "dropdown">
+            <option value = "None" >--NONE--</option>
+            <option value = "Azerbaijan" >Azerbaijan</option>
+            <option value = "Russia">Russia</option>
+            <option value = "Turkey">Turkey</option>
+            <option value = "USA">United States</option>
+            <option value = "UK">United Kingdom</option>
+            <option value = "Afghanistan">Afghanistan</option>
+            <option value = "Albania">Albania</option>
+            <option value = "Colombia">Colombia</option>
+            <option value = "Jamaica">Jamaica</option>
+        </select><br />
+
+        <label for="firstname">First name:</label>
+        <input type ="text" id = "firstname" name = "firstname" placeholder = "e.g. Ilkin"><br />
+        <label for ="lastname">Last name:</label>
+        <input type ="text" id="lastname" name="lastname" placeholder = "e.g. Masimli"><br />
+
+        <label for="gender"><strong>Gender:</strong></label>
+        <input type = "checkbox" name = "Male" value = "on">Male
+        <input type = "checkbox" name = "Female" value = "on">Female <br />
+
+        <label for="birthdate">Date of Birth:</label>
+        <input type = "date" /><br />
+       
+        <label for="upicture"><strong>Your Picture:</strong></label>
+        <input type = "file" name = "fileupload" accept = "image/*" /><br />
+
+        <label for="adress">Adress:</label><br />
+        <textarea rows = "5" cols = "50" name = "description">
+           Enter description here...
+        </textarea><br />
+
+        <input type="submit" value="Submit"><br />
+    </fieldset>
+      </form>
+</body>
+</html>
